@@ -15,42 +15,89 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <title>Mobileapp</title>
   </head>
 
   <body>
     <header class="header">
-      <nav>
-        <a href="./index.html">Mobileapp</a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Features</a></li>
-          <li><a href="">Team</a></li>
-          <li><a href="">Testimonials</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="nav">
+          <a class="logo" href="./index.html">Mobileapp</a>
+          <ul class="nav-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="btn-toggle" width="24" height="14">
+              <use href="./image/icons.svg#icon-Burger"></use>
+            </svg>
+          </button>
+        </nav>
+      </div>
     </header>
+    <!-- Menu burger -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <a class="logo" href="./index.html">Mobileapp</a>
+      <button class="btn-menu-close js-close-menu">
+        <svg class="btn-close" width="32" heigth="32">
+          <use href="./image/icons.svg#icon-ep_close"></use>
+        </svg>
+      </button>
+      <ul class="menu-list">
+        <li><a class="menu-item" href="">Home</a></li>
+        <li><a class="menu-item" href="">Features</a></li>
+        <li><a class="menu-item" href="">Team</a></li>
+        <li><a class="menu-item" href="">Testomonials</a></li>
+        <li><a class="menu-item" href="">Contact</a></li>
+      </ul>
+    </div>
 
     <main>
       <!-- Hero -->
       <section class="hero-page">
-        <h1>Introducing Mobileapp</h1>
-        <h2>Download our mobile app today!</h2>
-        <ul>
-          <li>
-            <p>Real-time updates and notifications for timely information</p>
-          </li>
-          <li>
-            <p>Robust analytics and reporting for data-driven insights</p>
-          </li>
-          <li><p>Offline capabilities for uninterrupted use</p></li>
-        </ul>
-        <button type="button">Download</button>
+        <div class="container">
+          <h1 class="hero">Introducing Mobileapp</h1>
+          <h2 class="sub-hero">Download our mobile app today!</h2>
+          <ul class="hero-list">
+            <li class="hero-list-item">
+              <svg class="list-arrow" width="15" height="15">
+                <use href="./image/icons.svg#icon-arrow-right"></use>
+              </svg>
+              <p class="text-hero">
+                Real-time updates and notifications for timely information
+              </p>
+            </li>
+            <li class="hero-list-item">
+              <svg class="list-arrow" width="15" height="15">
+                <use href="./image/icons.svg#icon-arrow-right"></use>
+              </svg>
+              <p class="text-hero">
+                Robust analytics and reporting for data-driven insights
+              </p>
+            </li>
+            <li class="hero-list-item">
+              <svg class="list-arrow" width="15" height="15">
+                <use href="./image/icons.svg#icon-arrow-right"></use>
+              </svg>
+              <p class="text-hero">
+                Offline capabilities for uninterrupted use
+              </p>
+            </li>
+          </ul>
+          <button class="btn-download" type="button">Download</button>
+        </div>
       </section>
 
       <!-- Section2 -->
-      <section>
+      <!-- <section>
         <h2>Section2</h2>
         <p>
           Get the best mobile experience with our Mobileapp. With a
@@ -107,10 +154,10 @@
             </p>
           </li>
         </ul>
-      </section>
+      </section> -->
 
       <!-- Section3 -->
-      <section class="section-three">
+      <!-- <section class="section-three">
         <h2>Watch the video</h2>
         <p>
           Watch the video below to see our mobile app in action. With a
@@ -119,10 +166,10 @@
           on both Apple and Android devices and is designed to make your life
           easier.
         </p>
-      </section>
+      </section> -->
 
       <!-- Our team -->
-      <section>
+      <!-- <section>
         <h2>Our team</h2>
         <p>
           Our team is made up of talented and passionate individuals who are
@@ -152,10 +199,10 @@
             <p>Sr. UI Designer</p>
           </li>
         </ul>
-      </section>
+      </section> -->
 
       <!-- Section4 -->
-      <section>
+      <!-- <section>
         <h2>WHAT OUR COSTUMER&apos;S SAY;</h2>
         <b>Jon Doe</b>
         <p>Company Inc.</p>
@@ -166,11 +213,11 @@
           updates are always timely. I would definitely recommend this app to
           anyone looking for a better mobile experience
         </p>
-      </section>
+      </section> -->
     </main>
 
     <footer class="footer">
-      <h2>Contact us</h2>
+      <!-- <h2>Contact us</h2>
       <h3>Get in touch with us</h3>
       <p>
         Have a question or comment about our app? Get in touch with us using the
@@ -183,7 +230,15 @@
           <li><a href="mailto:goIteens@gmail.com">goIteens@gmail.com</a></li>
         </ul>
       </address>
-      <p>&copy; 2019 GoIteens Template. All Rights Reserved</p>
+      <p>&copy; 2019 GoIteens Template. All Rights Reserved</p> -->
     </footer>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
