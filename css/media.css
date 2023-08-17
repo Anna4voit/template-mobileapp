@@ -6,8 +6,41 @@
   .menu-toggle {
     display: none;
   }
+  .nav {
+    padding: 0 32px;
+  }
   .nav-list {
     display: inline-flex;
+  }
+  .hero-page > .container {
+    width: 768px;
+  }
+  .hero-page {
+    padding: 60px 0 143px 0;
+  }
+  .hero {
+    font-size: 40px;
+  }
+  .sub-hero {
+    font-size: 20px;
+  }
+  .text-hero {
+    font-size: 14px;
+  }
+  .hero-list {
+    margin-bottom: 62px;
+  }
+  .hero-list-item {
+    width: 100%;
+  }
+  .hero-list-item:not(:last-child) {
+    padding-bottom: 14px;
+  }
+  .hero-list-item:nth-child(2n) {
+    width: 100%;
+  }
+  .btn-download {
+    margin: 0;
   }
 }
 
@@ -15,5 +48,14 @@
   .container {
     max-width: 1440px;
     padding: 0 16px;
+  }
+  .nav {
+    padding: 0 16px;
+  }
+  .hero-page > .container {
+    width: 1280px;
+  }
+  .hero-page {
+    padding: 145px 0 146px 0;
   }
 }
