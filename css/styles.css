@@ -130,8 +130,8 @@ img {
 
 .hero-page {
   padding: 88px 0 127px 0;
-  background-image: url(/image/iPhone.svg), url(/image/small-gr.svg),
-    url(/image/small-gr2.svg);
+  background-image: url(../image/iPhone.svg), url(../image/small-gr.svg),
+    url(../image/small-gr2.svg);
   background-repeat: no-repeat;
   background-position: 30px 12px, left, 0 100px;
   background-size: 130%, cover, cover;
@@ -241,7 +241,7 @@ img {
   width: 100%;
   height: 100%;
   background-color: var(--bg);
-  background-image: url(/image/Group102.svg);
+  background-image: url(../image/Group102.svg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -306,7 +306,7 @@ align-items: center; */
 .features {
   width: 320px;
   padding-top: 111px;
-  background-image: url(/image/Vector2.svg);
+  background-image: url(../image/Vector2.svg);
   background-repeat: repeat-y;
   background-size: auto;
   background-position: top;
@@ -332,7 +332,7 @@ align-items: center; */
   line-height: 1.43;
 }
 .box {
-  background-image: url(/image/Frame73.svg);
+  background-image: url(../image/Frame73.svg);
   background-repeat: no-repeat;
   background-size: 280px 410px;
   background-position: top;
