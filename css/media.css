@@ -48,6 +48,11 @@
   .btn-download {
     margin: 0;
   }
+  .modal {
+    width: 568px;
+    min-height: 970px;
+    transform: translate(-50%, -25%) scale(1);
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -66,5 +71,8 @@
   }
   .hero-page {
     padding: 145px 0 146px 0;
+  }
+  .modal {
+    transform: translate(-50%, -35%) scale(1);
   }
 }

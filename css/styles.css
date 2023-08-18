@@ -324,13 +324,11 @@ align-items: center; */
 }
 .modal {
   position: absolute;
-  left: 30%;
-  /* transform: translateX(50%); */
-  top: 5%;
-  /* transform: translate(-50%, -50%) scale(1); */
-  width: 568px;
-  min-height: 970px;
-
+  top: 50%;
+  left: 50%;
+  width: 280px;
+  min-height: 1639px;
+  transform: translate(-50%, -15%) scale(1);
   background-color: var(--bg);
   padding: 48px 24px;
   /* overflow: scroll; */
@@ -349,6 +347,7 @@ align-items: center; */
   right: 20px;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 .icon-modal {
   fill: var(--white);
