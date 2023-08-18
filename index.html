@@ -98,7 +98,9 @@
               </p>
             </li>
           </ul>
-          <button class="btn-download" type="button">Download</button>
+          <button data-modal-open class="btn-download" type="button">
+            Download
+          </button>
         </div>
       </section>
 
@@ -116,11 +118,6 @@
           <div class="box">
             <ul class="features-list">
               <li class="features-list-item">
-                <div>
-                  <svg class="features-icon" width="28" height="28">
-                    <use href="./image/Gear.svg"></use>
-                  </svg>
-                </div>
                 <h3 class="features-list-title">User-Friendly Interface:</h3>
                 <p class="features-list-text">
                   Intuitive and easy-to-navigate interface designed to provide a
@@ -128,9 +125,6 @@
                 </p>
               </li>
               <li class="features-list-item">
-                <svg class="features-icon" width="28" height="28">
-                  <use href="./image/icons.svg#icon-apple"></use>
-                </svg>
                 <h3 class="features-list-title">
                   Personalized Recommendations:
                 </h3>
@@ -140,7 +134,7 @@
                   and a more engaging experience.
                 </p>
               </li>
-              <li>
+              <li class="features-list-item">
                 <h3 class="features-list-title">Real-Time Updates:</h3>
                 <p class="features-list-text">
                   Users receive real-time updates and notifications to stay
@@ -148,7 +142,7 @@
                   with changes to the app.
                 </p>
               </li>
-              <li>
+              <li class="features-list-item">
                 <h3 class="features-list-title">
                   Integration with Other Apps:
                 </h3>
@@ -159,7 +153,7 @@
                   method.
                 </p>
               </li>
-              <li>
+              <li class="features-list-item">
                 <h3 class="features-list-title">Multi-Language Support:</h3>
                 <p class="features-list-text">
                   The app is designed to be accessible to users all around the
@@ -167,7 +161,7 @@
                   for people to use the app in their native language.
                 </p>
               </li>
-              <li>
+              <li class="features-list-item">
                 <h3 class="features-list-title">Offline Capabilities:</h3>
                 <p class="features-list-text">
                   The app offers offline capabilities, allowing users to access
@@ -256,6 +250,36 @@
       </address>
       <p>&copy; 2019 GoIteens Template. All Rights Reserved</p> -->
     </footer>
+    <!-- modal window -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="btn-modal" type="button" data-modal-close>
+          <svg class="icon-modal" width="28" height="24">
+            <use href="../image/icons.svg#icon-ep_close"></use>
+          </svg>
+        </button>
+        <p>Download</p>
+        <ul>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+        <p>
+          No matter which plan you choose, we're excited to have you as part of
+          our community of mobile app users!
+        </p>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <button type="button">Download</button>
+      </div>
+    </div>
 
     <script
       defer
@@ -264,5 +288,6 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

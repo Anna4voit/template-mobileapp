@@ -1,10 +1,13 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 1279px;
+    max-width: 768px;
     padding: 0 32px;
   }
   .menu-toggle {
     display: none;
+  }
+  .header {
+    width: 768px;
   }
   .nav {
     padding: 0 32px;
@@ -12,12 +15,15 @@
   .nav-list {
     display: inline-flex;
   }
-  .hero-page > .container {
-    width: 768px;
-  }
   .hero-page {
+    width: 768px;
+    /* background-image: url(../image/Group_desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; */
     padding: 60px 0 143px 0;
   }
+
   .hero {
     font-size: 40px;
   }
@@ -46,13 +52,16 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1440px;
+    max-width: 1280px;
     padding: 0 16px;
+  }
+  .header {
+    width: 1280px;
   }
   .nav {
     padding: 0 16px;
   }
-  .hero-page > .container {
+  .hero-page {
     width: 1280px;
   }
   .hero-page {
