@@ -17,10 +17,10 @@
   }
   .hero-page {
     width: 768px;
-    /* background-image: url(../image/Group_desktop.svg);
+    background-image: url(../image/Group_bg.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: cover; */
+    background-size: cover;
     padding: 60px 0 143px 0;
   }
 

@@ -142,10 +142,10 @@ img {
 
 .hero-page {
   padding: 88px 0 127px 0;
-  background-image: url(../image/Group_mobile.svg);
+  background-image: url(../image/Group_mobile.png);
   background-repeat: no-repeat;
   background-position: -15px -80px;
-  background-size: 140%;
+  background-size: 160%;
 }
 
 .hero {
@@ -253,7 +253,7 @@ img {
   width: 100%;
   height: 100%;
   background-color: var(--bg);
-  background-image: url(../image/Group102.svg);
+  background-image: url(../image/bg-burger.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -361,7 +361,7 @@ align-items: center; */
 .features {
   width: 320px;
   padding-top: 111px;
-  background-image: url(../image/Group_bg.svg);
+  background-image: url(../image/Group_bg-small.png);
   background-repeat: repeat-y;
   background-size: auto;
   background-position: bottom;
@@ -387,9 +387,9 @@ align-items: center; */
   line-height: 1.43;
 }
 .box {
-  background-image: url(../image/Frame73.svg);
+  background-image: url(../image/Group11.png);
   background-repeat: no-repeat;
-  background-size: 280px 410px;
+  background-size: contain;
   background-position: top;
   padding-top: 460px;
   margin-top: 44px;
@@ -421,7 +421,7 @@ align-items: center; */
 }
 
 .features-list-title::before {
-  content: url("../image/Gear.svg");
+  content: url("../image/Gear.png");
   position: absolute;
   width: 28px;
   height: 28px;
