@@ -19,8 +19,8 @@
     width: 768px;
     background-image: url(../image/Group_bg.png);
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
+    background-position: 0px 176px;
+    background-size: contain;
     padding: 60px 0 143px 0;
   }
 
@@ -52,6 +52,38 @@
     width: 568px;
     min-height: 970px;
     transform: translate(-50%, -25%) scale(1);
+  }
+  .features {
+    width: 768px;
+    padding-top: 100px;
+    padding-bottom: 47px;
+    background-image: url(../image/Groupdes.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -60px 281px;
+    margin: 0 auto;
+  }
+  .features-title {
+    font-size: 24px;
+  }
+  .features-text {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .features-list {
+    align-items: flex-end;
+  }
+  .features-list-item {
+    width: 297px;
+  }
+  /* .features-list-item:last-child {
+    align-self: flex-start;
+  } */
+  .features-list-title {
+    font-size: 16px;
+  }
+  .features-list-text {
+    font-size: 14px;
   }
 }
 
